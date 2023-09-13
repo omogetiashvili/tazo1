@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans";
+}
+
+.container {
+  width: 100%;
+  height: 950px;
+  background-image: url(./assets/86222346_2464041733849232_5849588038010667008_n.jpg);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  display: flex;  
+}
+h3 {
+  color: rgba(165, 251, 27, 0.949);
+  font-size: 28px;
+  margin-left: 5%;
+}
+
+.title {
+  font-size: 45px;
+  color: red;
+  font-weight: 700;
+}
+
+.titlespan {
+  color: black;
+}
+
+.svg{
+  position: absolute;
+  right: 7%;
+  top: 5%;
+}
+
+.burgerdiv{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  background-image: url(./assets/futbala.jpg);
+  transform: translateX(-150%);
+  position: absolute;
+  z-index: 1;
+}
+
+.seks{
+  position: absolute;
+  top: 550px;
+  width: 90%;
+  font-size: 22px;
+  left: 0;
+  margin-left: 20px;
+}
+
+.sabtazimg{
+  width: 90%;
+  height: 240px;
+  margin-top: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+
+.sabatazo{
+  margin-top: 380px;
+  width: 90%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.title{
+  margin-left: 5%;
+  padding-top: 4%;
+}
+
+h6{
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  right: 5%;
+  top: 4%;
+}
+
+.active {
+  transform: translate(0);
+
+}
+
+.boxdiv{
+
+  width: 90%;
+  height: 190px;
+  background-color: transparent;
+  border: 4px solid white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  flex-shrink: 0;
+  z-index: 0;
+  
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 250vh;
+  margin-top: 795px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tazopic1{
+  width: 290px;
+  height: 230px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.tazotitle {
+  position: absolute;
+  top: 300px;
+  color: black;
+  width: 90%;
+  font-size: 25px;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.calculator {
+
+  width: 90%;
+  height: 700px;
+  position: relative;
+  background-color: teal;
+  border: 5px solid black;
+  border-radius: 18px;
+  margin-top: 960px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.send{
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+
+}
+
+.lasth2 {
+  color: black;
+  position: absolute;
+  top: 850px;
+  z-index: 2;
+  width: 90%;
+  margin-top: 10px;
+  left: 25px;
+}
+
+h5 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.inputi {
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
+
+.result {
+  font-size: 17px;
+  color: black;
+}
+
+.h3 {
+  font-size: 20px;
+}
+
